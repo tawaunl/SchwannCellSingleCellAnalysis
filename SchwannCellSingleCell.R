@@ -4,6 +4,8 @@ library(Seurat)
 library(patchwork)
 
 setwd("~/Downloads/SchwannCellSingleCellAnalysis/")
+
+
 # Loading P1 data
 cts <- list()
 cts[[1]] <- ReadMtx(mtx ="GSE138577_RAW/P1_1/GSM4113877_10X_P1_1_matrix.mtx.gz",
